@@ -35,6 +35,16 @@ header nav{
     margin: 7px 0;
 }
 
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
 .hero{
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -83,16 +93,6 @@ button {
     padding: 10px 20px;
     border: none;
     font-size: 16px;
-}
-
-header nav ul li {
-    display: inline;
-}
-
-header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
 }
 
 .section-title {
@@ -225,10 +225,11 @@ header nav ul li a {
     padding: 0 0 15px 0;
 }
 
-.contact-info p, address {
+.contact-info p, .contact-info address {
     font-style: normal;
     font-size: 20px;
     line-height: 1.5;
+    margin: 20px 0;
 }
 
 .contact-info a {
